@@ -62,7 +62,7 @@ function showTemperature(response) {
 }
 
 function fetchTemperature(queryParameters) {
-  const apiKey = "538cc61b1f6ac32725c9059049fe48a5";
+  const apiKey = "0a4dc3c696be7291e8d469a7dbee552f";
   let units = "imperial";
   const apiUrl = `https://api.openweathermap.org/data/2.5/weather?appid=${apiKey}&units=${units}&${queryParameters}`;
   axios.get(apiUrl).then(showTemperature);
