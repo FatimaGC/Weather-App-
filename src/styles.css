@@ -1,0 +1,43 @@
+body {
+  font-family: "Fredoka", sans-serif;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  border: 3px solid gray;
+  border-radius: 30px;
+  margin: 100px auto;
+  max-width: 60%;
+  padding: 20px;
+}
+
+.heading p {
+  color: #7c7b7b;
+}
+
+.current-weather {
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  border-radius: 5px;
+  margin: 30px 0;
+  color: white;
+}
+
+.weather-icon {
+  font-size: 40px;
+}
